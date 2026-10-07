@@ -1,0 +1,24 @@
+{
+  "name": "faceit-verification-bot",
+  "version": "1.0.0",
+  "description": "NestJS Discord Bot for Faceit Verification",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/main.js"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.0",
+    "@nestjs/config": "^3.1.1",
+    "@nestjs/core": "^10.3.0",
+    "axios": "^1.6.7",
+    "discord.js": "^14.14.1",
+    "ioredis": "^5.3.2",
+    "reflect-metadata": "^0.2.1",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}
